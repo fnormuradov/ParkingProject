@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 
 namespace ParkingProject
 {
-    public class Class1
+    public class CarPlace
     {
-        public Class1()
-        {
-        }
+        public int ParkingIndex { get; set; }
+        public Type ParkingType { get; set; }
     }
 }
